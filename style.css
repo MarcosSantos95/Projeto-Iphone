@@ -56,6 +56,13 @@
 
 
 }
+.botao:hover {
+    opacity: 0.7;
+}
+.botao:active{
+    opacity: 0.3;
+
+}
 
 .troca-cor {
 
@@ -128,10 +135,11 @@ ul {
 }
 
 li {
-
+    cursor: pointer;
     font-size: 12px;
     font-weight: 400px;
     color: #626262
+    
 }
 
 .circulo {
